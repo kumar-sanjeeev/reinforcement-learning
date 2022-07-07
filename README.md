@@ -111,3 +111,18 @@ python3 gridworld.py -a value -g MazeGrid
 *Q Values*
 
 ![image](https://user-images.githubusercontent.com/62834697/177842971-f545c279-c7ca-46cd-99d8-c66fa28d4cf6.png)
+
+
+### Q-Learning
+Run the Value iteration agent on the MazeGrid environment:
+
+*State Values*
+
+```shell
+python3 gridworld.py -a q -g MazeGrid -k 100 -q
+```
+![image](https://user-images.githubusercontent.com/62834697/177844306-94aac08b-bbc9-44ad-be33-edfe79a48a6e.png)
+
+*Q Values*
+
+![image](https://user-images.githubusercontent.com/62834697/177844232-34bd43e5-3a17-42de-ad63-aac1681ad629.png)
