@@ -1,0 +1,28 @@
+Task 2 - Value Iteration
+
+Answers:
+
+
+6) 	Rounds of value iteration for start state to become non-zero: 5
+    Why? 
+	"Because value iteration works on the one step look ahead principle. Hence need more iteration to propagate the return."
+
+7) 	Which parameter to change: noise
+	Value of the changed parameter: 0
+
+8)	Parameter values producing optimal policy types:
+	    a) -n 0   -d 0.1 
+	    b) -n 0.1 -d 0.1
+	    c) -n 0   -d 0.9 
+	    d) -n 0.4 -d 0.9
+	    e) -n 1   -d 0.9
+
+9) 	Pros: 								     Cons:
+		-  Need fewer iteration to converge   - Algorithm is more complex to implement in comparison to Value Iteration
+		-  	    		                      - Can be computationally prohibitive
+		-									  - In case of policy iteration each of its iteration involves policy evaluation
+		-									  -
+
+		Policy Iteration uses Bellman Expectation Equation and Greedy policy Improvement
+		Value Iteration uses Bellman Optmality Equation
+
