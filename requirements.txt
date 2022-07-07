@@ -1,0 +1,6 @@
+abstract==2022.4.20
+base32hex==1.0.2
+colouration==2020.7.26
+graphviz==0.20
+numpy==1.23.0
+pkg_resources==0.0.0
