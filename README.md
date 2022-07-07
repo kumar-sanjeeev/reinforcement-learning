@@ -83,6 +83,10 @@ Options:
 ### Policy Iteration
 Run the policy iteration agent on the following paramters:
 
+```shell
+python3 gridworld.py -a policyiter
+```
+
 ![image](https://user-images.githubusercontent.com/62834697/177841356-4048f6b4-cc37-4c82-8ef7-e02050dd5873.png)
 
 ##### Final Result
@@ -93,3 +97,17 @@ Run the policy iteration agent on the following paramters:
 *Q-Values*
 
 ![image](https://user-images.githubusercontent.com/62834697/177842067-a2f13536-e705-403d-9d8b-94809f014b6e.png)
+
+### Value Iteration
+Run the Value iteration agent on the MazeGrid environment:
+
+*State Values*
+
+```shell
+python3 gridworld.py -a value -g MazeGrid
+```
+![image](https://user-images.githubusercontent.com/62834697/177842470-c7c7bbc9-d60e-47c5-ad61-719065cde532.png)
+
+*Q Values*
+
+![image](https://user-images.githubusercontent.com/62834697/177842971-f545c279-c7ca-46cd-99d8-c66fa28d4cf6.png)
