@@ -11,6 +11,7 @@ Implemented the `VALUE ITERATION`, `POLICY ITERATION` and `Q LEARNING` on the gr
 * Policy Iteration 
 * Value Iteration 
 * Q-Learning
+* Resources
 
 
 #### Getting Started:
@@ -126,3 +127,6 @@ python3 gridworld.py -a q -g MazeGrid -k 100 -q
 *Q Values*
 
 ![image](https://user-images.githubusercontent.com/62834697/177844232-34bd43e5-3a17-42de-ad63-aac1681ad629.png)
+
+### Resources
+This problem was given in the homework assignment of `REINFORCEMENT LEARNING and LEARNING BASED CONTROL COURSE` at my university
