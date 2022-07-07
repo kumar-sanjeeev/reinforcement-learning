@@ -8,8 +8,9 @@ Implemented the `VALUE ITERATION`, `POLICY ITERATION` and `Q LEARNING` on the gr
 * Getting Started
 * Information about main code files
 * Quick Start GridWorld
-* Value Iteration Result
-* Policy Iteration Result
+* Policy Iteration 
+* Value Iteration 
+* Q-Learning
 
 
 #### Getting Started:
@@ -43,7 +44,7 @@ python3 gridworld.py -m
 ```
 ![image](https://user-images.githubusercontent.com/62834697/177839894-fdce24fc-e0ec-43d8-a102-e36c67bf8935.png)
 
-Control the different aspects of the simulation. A full list is available by running:
+* Control the different aspects of the simulation. A full list is available by running:
 ```shell
 python3 gridworld.py -h
 ```
@@ -77,6 +78,18 @@ Options:
   -s S, --speed=S       Speed of animation, S > 1.0 is faster, 0.0 < S < 1.0
                         is slower (default 1.0)
   -m, --manual          Manually control agent (for lecture)
-
 ```
 
+### Policy Iteration
+Run the policy iteration agent on the following paramters:
+
+![image](https://user-images.githubusercontent.com/62834697/177841356-4048f6b4-cc37-4c82-8ef7-e02050dd5873.png)
+
+##### Final Result
+*State Values*
+
+![image](https://user-images.githubusercontent.com/62834697/177841800-ec02c4e8-bacc-439a-8898-0579c3f0e7b6.png)
+
+*Q-Values*
+
+![image](https://user-images.githubusercontent.com/62834697/177842067-a2f13536-e705-403d-9d8b-94809f014b6e.png)
