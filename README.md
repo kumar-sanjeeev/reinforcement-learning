@@ -5,16 +5,16 @@
 Implemented the `VALUE ITERATION`, `POLICY ITERATION` and `Q LEARNING` on the grid World Environment.
 
 ### Table of content
-* Getting Started
-* Information about main code files
-* Quick Start GridWorld
-* Policy Iteration 
-* Value Iteration 
-* Q-Learning
-* Resources
+* [Getting Started](#getting-started)
+* [Information about main code files](#information-about-main-code-files)
+* [Quick Start GridWorld](#quick-start-gridworld)
+* [Policy Iteration](#policy-iteration) 
+* [Value Iteration](#value-iteration)
+* [Q-Learning](#q-learning)
+* [Resources](#resources)
 
 
-#### Getting Started:
+#### Getting Started
 1. Clone the repo :
 ```shell
 $ git clone https://github.com/kumar-sanjeeev/reinforcement-learning.git
